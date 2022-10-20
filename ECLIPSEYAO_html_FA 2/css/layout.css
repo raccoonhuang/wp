@@ -1,0 +1,185 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+/*產品介紹*/	
+
+#products{
+    width: 100%;
+    height: auto;
+    background: url(../img/bg_products.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.products-section {
+    color: #926d4d;
+	}
+
+.products h2{
+    color:#74161b;
+	}
+
+.textnimg img{
+    max-width: 80%;
+    height: auto;
+    margin: 5px 5px 0px 25px;
+}
+
+.products img{
+    max-width: 50%;
+    height: auto;
+    margin: 25px;
+}
+.products p, .textnimg p{
+    padding: 5px 0 5px 0px;
+    font-size: 1.8rem;
+    font-family: "Microsoft JhengHei" ,"微軟正黑體";
+    color: #787878;
+    line-height: 1.5;
+    letter-spacing: 1px;
+	}
+
+.products p a, .textnimg p a{
+    font-size: 1.1rem;
+    margin-left: 15px;
+	}
+
+.products p span, .textnimg p span{
+    color:#926d4d;
+    font-family: "PMingLiU" ,"新細明體" ,"Microsoft JhengHei" ,"微軟正黑體";
+    line-height: 1.5;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+	}
+
+.products-title {
+    border-bottom: 1px solid #74161b;
+}
+
+.products-title2 p{
+    border-bottom: 1px solid #74161b;
+    font-family: "PMingLiU" ,"新細明體" ,"Microsoft JhengHei" ,"微軟正黑體";
+    padding: 5px 0 5px 0px;
+    font-size: 1.8rem;
+    color: #787878;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.products-bb{
+    margin-top: 50px;
+    border-bottom: 1px solid #74161b;
+}
+
+.point-title p {
+	letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #74161b;
+}
+
+.point-title p span, .textnimg p span{
+	letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #787878;
+    font-weight: bold;
+}
+
+.point-text p {
+    padding: 10px 0px 10px 25px;
+    font-size: 1.5rem;
+    text-align: justify;
+	letter-spacing: 3px;
+    font-family: "Microsoft JhengHei" ,"微軟正黑體";
+}
+
+.textnimg p{
+    padding: 10px 0px 10px 25px;
+    font-size: 1.5rem;
+	letter-spacing: 3px;
+    font-family: "Microsoft JhengHei" ,"微軟正黑體";
+}
+
+.point-text ul li, .textnimg ul li{
+    font-size: 1.5rem;
+    text-align: left;
+    color: #787878;
+    letter-spacing: 2px;
+    font-family: "Microsoft JhengHei" ,"微軟正黑體";
+}
+
+.point-text ul li a, .textnimg ul li a{
+    font-size: 1.5rem;
+    text-align: right;
+    color: #787878;
+    letter-spacing: 2px;
+}
+
+@media(max-width:768px) {
+    .products-section {
+        padding-top: 10px;
+    }
+	
+    .products-area{
+        padding-top: 70px;
+        padding-bottom: 40px;
+        position: relative; z-index: 999;
+    }
+    
+    .products-name{
+        position: relative;
+        margin: auto;
+        padding: 40px 200px;
+        font-size: 12pt;
+        font-family: "Microsoft JhengHei";
+        text-align: center;
+    } 
+    
+
+
+.point-text p{
+    padding:0;
+}
+
+}
+
+@media(max-width:1024px) {
+    .products-name{
+        position: relative;
+        margin: auto;
+        padding: 40px 100px;
+        font-size: 12pt;
+        font-family: "Microsoft JhengHei";
+        text-align: left;
+    } 
+
+
+@media(min-width:1199px) {
+    .products-name{
+        position: relative;
+        margin: auto;
+        padding: 40px 200px;
+        font-size: 12pt;
+        font-family: "Microsoft JhengHei";
+        text-align: left;
+    } 
+}
+
+@media(min-width:780px) and (max-width:1024px) {
+
+.products-bb{
+    margin-top: 0px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+}
+
+    
